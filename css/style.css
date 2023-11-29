@@ -18,11 +18,13 @@ body {
 
 .header-content {
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 10;
   justify-content: space-between; 
   align-items: center;
   padding: 20px;
   position: relative;
-  z-index: 2;
 }
 
 .header-content h1 {
@@ -158,11 +160,13 @@ body {
   margin-bottom: 10px;
 }
 
+
 .step-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 0px;
+  margin-right: 20x;
+  margin-top: 20px;
   padding-left: 200px;
 }
 
@@ -207,6 +211,8 @@ body {
 }
 
 .process p {
+  display: flex;
+  align-items: center;
   margin: 0; 
   padding-right: 200px;
   padding-left: 20px;
